@@ -4,3 +4,51 @@
   display: flex;
   justify-content: center;
 }
+
+
+.bubble-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bubble {
+  /* border: 10px solid blue; */
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+
+.bubble:hover {
+  background-color: blueviolet;
+}
+
+.large-bubble {
+  background-color: blue;
+  width: 30rem;
+  height: 30rem;
+  z-index: 1;  
+  top: 3rem;
+}
+
+
+.medium-bubble {
+  background-color: mediumblue;
+  width: 20rem;
+  height: 20rem;
+  z-index: 2;
+  top: 8rem;
+}
+
+.small-bubble {
+  background-color: darkblue;
+  width: 10rem;
+  height: 10rem;
+  z-index: 3;
+  top: 13rem;
+}

@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import BubbleMenu from "./BubbleMenu";
 
 function App() {
   return (
-    <div className="Scrubble">
-      <h1>SCRUBBLE</h1>
+    <div>
+      <div className="Scrubble">
+        <h1>SCRUBBLE</h1>
+      </div>
+      <BubbleMenu />
     </div>
   );
 }
